@@ -1,0 +1,25 @@
+Package: mskilibs
+Title: MskiVerse
+Version: 0.1
+Authors@R: 
+    person("Ashley", "Doane", , "adoane@nygenome.org", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Dependencies and Namespace for MskiLab Packages.
+License: GPL (>= 3)
+RoxygenNote: 7.2.1
+biocViews:
+Imports: 
+    bamUtils (>= 0.0.0.9000),
+    Flow (>= 0.0.0.9000),
+    gGnome (>= 0.1),
+    gTrack (>= 0.1.0),
+    gUtils (>= 0.2.0),
+    ComplexHeatmap,
+    skitools (>= 0.0.0.9000)
+Remotes:  
+    mskilab/skitools,
+    mskilab/gUtils,
+    mskilab/Flow,
+    mskilab/bamUtils,
+    mskilab/gTrack,
+    mskilab/gGnome
